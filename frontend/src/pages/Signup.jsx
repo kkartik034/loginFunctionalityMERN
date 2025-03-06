@@ -29,7 +29,7 @@ if(!name || !password || !email) {
 }
 
 try {
-    const url = "http://localhost:8080/auth/signup";
+    const url = "https://login-functionality-mern-api.vercel.app/auth/signup";
 
 const response = await fetch(url,{
     method: 'POST',
